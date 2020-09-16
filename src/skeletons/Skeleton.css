@@ -26,6 +26,8 @@
 .skeleton-wrapper {
   margin: 20px auto;
   padding: 10px 15px;
+  /* add border radius to soften wrapper with theme */
+  border-radius: 4px;
 }
 
 /* skeleton profile */
@@ -34,4 +36,15 @@
   grid-template-columns: 1fr 2fr;
   grid-gap: 30px;
   align-items: center;
+}
+
+/* themes */
+.skeleton-wrapper.light {
+  background: #f2f2f2;
+}
+.skeleton-wrapper.dark {
+  background: #444;
+}
+.skeleton-wrapper.dark .skeleton {
+  background: #777;
 }
