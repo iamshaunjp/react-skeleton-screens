@@ -27,3 +27,11 @@
   margin: 20px auto;
   padding: 10px 15px;
 }
+
+/* skeleton profile */
+.skeleton-profile {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 30px;
+  align-items: center;
+}
